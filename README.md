@@ -7,6 +7,12 @@ needing no extension install (`pg_stat_statements` needs
 `shared_preload_libraries` and a server restart; this needs nothing
 beyond the stats views every Postgres already has on by default).
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
